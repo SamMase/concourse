@@ -30,7 +30,9 @@ import com.google.common.collect.Lists;
  * @author Jeff Nelson
  */
 public class StringSplitterTest extends ConcourseBaseTest {
-
+    
+    String printingLogic = null;
+    
     @Test
     public void testStringSplitter() {
         String string = Random.getString();
